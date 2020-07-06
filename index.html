@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YouTube App</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--  CDN (Content Delivery Network) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	<script src="js/scripts.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		  <ul class="navbar-nav">
+		    <li class="nav-item active">
+		      <a class="nav-link" href="#">MY YouTube Application With Simple HTML, CSS, JAVASCRIPT</a>
+		    </li>
+		  </ul>
+		</nav>	
+	</header><br>
+
+	
+	<div class="container-fluid">		
+		<div class="row">
+			<div class="col-sm-7">
+				<!--
+					IFrame Embed formats
+					embed-responsive embed-responsive-21by9
+					embed-responsive embed-responsive-16by9
+					embed-responsive embed-responsive-4by3
+					embed-responsive embed-responsive-1by1
+				 -->
+				<div class="embed-responsive embed-responsive-16by9 border-blue-shadow">
+					<iframe
+						src="https://www.youtube.com/embed/0uf09AQnN6k?rel=0&amp;autoplay=1" 
+						class="border embed-responsive-item" 
+						name="content_load"  
+						id="content_load" 
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+				</div><br>
+				<div>
+					<h4 id="youtube_video_title">World Economic Forums Helping Farmers</h4>
+					<p id="youtube_paragh_des">
+						World Economic Forums Filipino Scheme is delivering groceries directly from farms to homes. Saving farmers from losing income and helping people get enough to eat
+					</p>	
+				</div>
+				
+				<hr/>
+
+				<h4>Comments...</h4>
+				<!-- <textarea class="form-control" rows="5" placeholder="Post Your Comments..."></textarea>
+				<button class="btn btn-outline-primary btn-sm mt-1 float-right">POST</button> -->
+
+			</div>
+
+			<div class="col-sm-5">
+				<a href="https://www.youtube.com/embed/0uf09AQnN6k?rel=0&amp;autoplay=1" target="content_load" style="color: #000;">
+					<div class="media border border-info rounded mb-2">
+						<img class="mr-3 img-small-thumbnail border" src="imgs/13agri1.jpg" alt="image-alternate">
+						<div class="media-body">
+							<h6 class="mt-0 text-ellipsis">World Economic Forums Helping Farmers</h6>
+							<p class="text-ellipsis">
+								World Economic Forums Filipino Scheme is delivering groceries directly from farms to homes. Saving farmers from losing income and helping people get enough to eat	
+							</p>						
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://www.youtube.com/embed/E8URtUuYYiw?rel=0&amp;autoplay=1" target="content_load" style="color: #000">
+					<div class="media border border-info rounded mb-2">
+						<img class="mr-3 img-small-thumbnail border" src="imgs/photo-680199436-612x612.jpg" alt="image-alternate">
+						<div class="media-body">
+							<h6 class="mt-0 text-ellipsis">Om Chants, Relax your mind and Remove your Negative Energy</h6>
+							<p class="text-ellipsis">
+								Om Chanting, Power of Peace
+							</p>
+						</div>
+					</div>
+				</a>
+				
+
+				<a href="https://www.youtube.com/embed/ggpzBtEGot4?rel=0&amp;autoplay=1" target="content_load" style="color: #000">
+					<div class="media border border-info rounded mb-2">
+						<img class="mr-3 img-small-thumbnail border" src="imgs/tiktok-banned-1.png" alt="image-alternate">
+						<div class="media-body">
+							<h6 class="mt-0 text-ellipsis">Tik Tok Bans in INDIA Comedy clips</h6>
+							<p class="text-ellipsis">
+								Tik Tok Bans in INDIA Comedy clips
+							</p>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://www.youtube.com/embed/qUQeQEJIY_8?rel=0&amp;autoplay=1" target="content_load" style="color: #000">
+					<div class="media border border-info rounded mb-2">
+						<img class="mr-3 img-small-thumbnail border" src="imgs/learn-guitar-tabs-new-1000x430.jpg" alt="image-alternate">
+						<div class="media-body">
+							<h6 class="mt-0 text-ellipsis">Great Guitar Artist</h6>
+							<p class="text-ellipsis">
+								Great Guitar Artist
+							</p>
+						</div>
+					</div>
+				</a>
+				<a href="https://www.youtube.com/embed/GCKjWF0_4Gc?rel=0&amp;autoplay=1" target="content_load" style="color: #000">
+					<div class="media border border-info rounded mb-2">
+						<img class="mr-3 img-small-thumbnail border" src="imgs/images (3).jpg" alt="image-alternate">
+						<div class="media-body">
+							<h6 class="mt-0 text-ellipsis">Golden Pleasant Music</h6>
+							<p class="text-ellipsis">
+								Golden Pleasant Music
+							</p>
+						</div>
+					</div>
+				</a>
+				<a href="https://www.youtube.com/embed/ELnYvfQ05vs?rel=0&amp;autoplay=1" target="content_load" style="color: #000">
+					<div class="media border border-info rounded mb-2">
+						<img class="mr-3 img-small-thumbnail border" src="imgs/header.jpg" alt="image-alternate">
+						<div class="media-body">
+							<h6 class="mt-0 text-ellipsis">World Safest Helmet</h6>
+							<p class="text-ellipsis">
+								World Safest Helmet UNILAD TECH
+							</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>	
+	<footer class="footer"></footer>
+</body>
+</html>
+

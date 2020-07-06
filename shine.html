@@ -1,0 +1,47 @@
+<style>
+
+.contents {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.shiny {
+  margin: 30px auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 340px;
+  height: 400px;
+  padding: 15px;
+  overflow:hidden;
+}
+
+.show-off {
+  width: 305px;
+  height: 305px;
+  position: relative;
+  top: -556px;
+  left: -550px;
+  transition: 1s;
+  transform: rotate(30deg);
+  background: linear-gradient(90deg, rgba(255,255,255, 0.2)50%, rgba(255,255,255,0.7)100%);
+}
+
+.shiny:hover .show-off {
+  transform: rotate(0);
+  left: 560px;
+  top: -445px;
+}
+</style>
+
+<div class="contents">
+  <div class="shiny">    
+    <img src="http://lorempixel.com/640/400/abstract" alt="image" />
+    <div class="show-off" /> </div>  
+</div>
+

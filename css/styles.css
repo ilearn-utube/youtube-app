@@ -1,0 +1,38 @@
+.text-ellipsis {
+	display: inline-block;
+    width: 400px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    text-decoration: none;		        
+}
+
+.media {}
+.media:hover {
+	color: #FFF;
+}
+
+.img-small-thumbnail {
+	width: 80px;
+	height: 80px;
+}
+
+.border-info{}
+.border-info:hover {
+	background-color: #17a2b8;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.border-blue-shadow {
+	box-shadow: 0px 0px 0px #FFF;
+}
+	
+.border-blue-shadow:hover {
+	box-shadow: 0px 6px 6px #CCC;
+}
+
+.footer {
+	margin-top: 300px;
+}
